@@ -411,7 +411,7 @@ We welcome contributions! Ghost Room is an open-source project, and we appreciat
 
 ## License
 
-This project is open-source and available under the [MIT License](LICENSE) (or your preferred license).
+This project is open-source and available under the MIT License (or your preferred license).
 
 ### License Summary
 - ✅ Commercial use
