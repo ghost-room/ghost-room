@@ -1,10 +1,10 @@
-# 🚀 Ghost Room
+# Ghost Room
 
 **Serverless • Encrypted • Offline Mesh Messaging Suite**
 
 Ghost Room is a next-generation communication platform engineered for secure, fast, and censorship-resistant messaging. Designed with a hybrid privacy architecture — combining cloud-grade reliability with true offline device-to-device communication — Ghost Room enables users to stay connected anytime, anywhere, with or without Internet access.
 
-## 🛡 Private by Design • Engineered for Zero Exposure
+## Private by Design • Engineered for Zero Exposure
 
 Unlike traditional messengers that route all communication through centralized servers, Ghost Room minimizes metadata exposure by using:
 
@@ -24,7 +24,7 @@ Ghost Room protects:
 
 Because communication doesn't depend solely on Internet servers.
 
-## 🔥 The Problem We Solve
+## The Problem We Solve
 
 Most messaging apps — even encrypted ones — still expose your:
 - Identity
@@ -40,9 +40,9 @@ Ghost Room breaks this dependency by enabling true serverless offline messaging,
 - ✔ Without any central servers
 - ✔ Without revealing metadata
 
-## 📡 What Makes Ghost Room Different
+## What Makes Ghost Room Different
 
-### 🔗 1. Offline Mesh Mode — Device-to-Device Bluetooth Messaging
+### 1. Offline Mesh Mode — Device-to-Device Bluetooth Messaging
 
 A signature Ghost Room innovation. When there is no Internet, users can still communicate using encrypted peer-to-peer Bluetooth messaging:
 
@@ -54,7 +54,7 @@ A signature Ghost Room innovation. When there is no Internet, users can still co
 
 The message never touches the Internet. Never touches a server. Never reveals metadata. This is true serverless communication.
 
-### 🔒 2. End-to-End Encryption
+### 2. End-to-End Encryption
 
 Ghost Room uses modern encryption for:
 - Chats
@@ -64,7 +64,7 @@ Ghost Room uses modern encryption for:
 
 Cryptographic keys are stored securely on-device, ensuring zero knowledge exposure.
 
-### 🌐 3. Hybrid Privacy Architecture
+### 3. Hybrid Privacy Architecture
 
 Ghost Room blends the best of both worlds:
 
@@ -84,14 +84,14 @@ Powered by:
 - Local message queues
 - No cloud dependency
 
-### 📞 4. Secure Calling via Agora RTC
+### 4. Secure Calling via Agora RTC
 
 - 1-on-1 and group calls (up to 11 participants)
 - Encrypted audio/video streams
 - Optimized for low latency
 - Works in low bandwidth environments
 
-### 🧩 5. Modern, Scalable, Production-Ready Tech Stack
+### 5. Modern, Scalable, Production-Ready Tech Stack
 
 - Kotlin + Java 17
 - Firebase / FCM / Firestore
@@ -101,7 +101,7 @@ Powered by:
 - Retrofit + RxJava
 - WorkManager for background tasks
 
-## 🌙 Ghost Mode Features
+## Ghost Mode Features
 
 ### Core Features
 
@@ -128,19 +128,19 @@ Powered by:
 - ✓ LAN-based offline mode (future)
 - ✓ Desktop client (future)
 
-## 🎯 Use Cases
+## Use Cases
 
 Ghost Room is engineered for environments where communication must remain resilient and private:
 
-- **🕵️ Journalists & Sources** — Stay connected even during network blackouts
-- **👥 Public Events / Crowds** — Chat when mobile networks are overloaded
-- **🌐 Remote Areas** — Work offline for long durations
-- **🎓 Universities & Hostels** — Local mesh communication without Internet
-- **🚫 Censored Environments** — Messaging continues even under network blocks
+- ** Journalists & Sources** — Stay connected even during network blackouts
+- ** Public Events / Crowds** — Chat when mobile networks are overloaded
+- ** Remote Areas** — Work offline for long durations
+- ** Universities & Hostels** — Local mesh communication without Internet
+- ** Censored Environments** — Messaging continues even under network blocks
 
-## 🧠 Technology Highlights
+## Technology Highlights
 
-### ◈ Ghost Mesh Protocol (Offline Layer)
+### Ghost Mesh Protocol (Offline Layer)
 
 A Bluetooth LE–powered encrypted communication layer optimized for:
 - Low-latency P2P chats
@@ -149,20 +149,20 @@ A Bluetooth LE–powered encrypted communication layer optimized for:
 - Energy-efficient scanning
 - Zero-server messaging
 
-### ◈ Hybrid Sync System
+### Hybrid Sync System
 
 Ghost Room intelligently switches between modes:
 1. Try Offline Mesh
 2. If unavailable → Use Firebase for delivery
 3. Re-sync using Realm local database
 
-### ◈ Secure Calling Architecture
+### Secure Calling Architecture
 
 - Agora RTC for low-latency AV
 - Encrypted signalling
 - Custom call session management
 
-## 🏗 Architecture Overview
+## Architecture Overview
 
 ### Application Architecture
 Ghost Room follows **Clean Architecture** principles with **MVVM (Model-View-ViewModel)** pattern:
@@ -211,7 +211,7 @@ Ghost Room follows **Clean Architecture** principles with **MVVM (Model-View-Vie
 - **Key Management**: Secure key storage and exchange
 - **Certificate Pinning**: Secure API communication
 
-## 🛠 Developer Workspace
+## Developer Workspace
 
 Ghost Room Android Workspace includes:
 - Complete modularized Android codebase
@@ -222,7 +222,7 @@ Ghost Room Android Workspace includes:
 - Gradle 8.13 + Kotlin 2.2
 - Target SDK 35 (Android 15)
 
-## 📋 Requirements
+## Requirements
 
 ### System Requirements
 - **Android**: 8.0 (API 26) or higher
@@ -238,7 +238,7 @@ Ghost Room Android Workspace includes:
 - **Gradle**: 8.13.0 (included via wrapper)
 - **Kotlin**: 2.2.0
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Installation
 
@@ -270,7 +270,7 @@ Ghost Room Android Workspace includes:
    ./gradlew :app:installDebug
    ```
 
-## 🔨 Building the Project
+## Building the Project
 
 ### Debug Build
 ```bash
@@ -292,7 +292,7 @@ The signed APK will be at: `app/release/Ghost Room.apk`
 ./gradlew build
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 ### Firebase Setup
 1. **Authentication**: Enable Phone Authentication in Firebase Console
@@ -318,7 +318,7 @@ Key configuration values in `app/build.gradle`:
 - `maps_api_key`: Google Maps API key (for location features)
 - `encryption_type`: NONE, AES, or E2E
 
-## 🗺 Roadmap
+## Roadmap
 
 ### Completed
 - ✓ Offline Mesh Mode
@@ -339,7 +339,7 @@ Key configuration values in `app/build.gradle`:
 - ▢ Open-source SDK
 - ▢ iOS version
 
-## 🔐 Security & Privacy Details
+## Security & Privacy Details
 
 ### Encryption Standards
 - **End-to-End Encryption**: All messages are encrypted before transmission
@@ -367,7 +367,7 @@ Key configuration values in `app/build.gradle`:
 - No hardcoded secrets in source code
 - Certificate pinning for API calls
 
-## ❓ Frequently Asked Questions (FAQ)
+## Frequently Asked Questions (FAQ)
 
 **1. Is Ghost Room completely free?**  
 Yes. It's open-source and free for everyone.
@@ -393,7 +393,7 @@ Yes. All data is encrypted with keys stored on-device. Without your device and a
 **8. Can I use Ghost Room internationally?**  
 Yes. Ghost Room works anywhere, with or without Internet. The offline mesh mode is particularly useful in areas with poor connectivity or network restrictions.
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Ghost Room is an open-source project, and we appreciate any help you can provide.
 
@@ -430,7 +430,7 @@ We welcome contributions! Ghost Room is an open-source project, and we appreciat
 - Include device information and Android version
 - Attach relevant logs if possible
 
-## 📞 Support
+## Support
 
 ### Getting Help
 - **GitHub Issues**: Report bugs or request features
@@ -442,7 +442,7 @@ We welcome contributions! Ghost Room is an open-source project, and we appreciat
 - **Email**: Contact us via email (if available)
 - **Twitter**: Follow updates (if available)
 
-## 📄 License
+## License
 
 This project is open-source and available under the [MIT License](LICENSE) (or your preferred license).
 
@@ -454,7 +454,7 @@ This project is open-source and available under the [MIT License](LICENSE) (or y
 - ❌ Liability
 - ❌ Warranty
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Firebase**: For cloud infrastructure and services
 - **Agora**: For real-time communication SDK
@@ -462,7 +462,7 @@ This project is open-source and available under the [MIT License](LICENSE) (or y
 - **Open Source Community**: For various libraries and tools
 - **Contributors**: Everyone who has contributed to this project
 
-## 📚 Additional Resources
+## Additional Resources
 
 ### Documentation
 - [Firebase Documentation](https://firebase.google.com/docs)
