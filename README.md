@@ -123,11 +123,11 @@ Powered by:
 
 Ghost Room is engineered for environments where communication must remain resilient and private:
 
-- **Journalists & Sources** — Stay connected even during network blackouts
-- **Public Events / Crowds** — Chat when mobile networks are overloaded
-- **Remote Areas** — Work offline for long durations
-- **Universities & Hostels** — Local mesh communication without Internet
-- **Censored Environments** — Messaging continues even under network blocks
+- **Journalists & Sources** : Stay connected even during network blackouts
+- **Public Events / Crowds** : Chat when mobile networks are overloaded
+- **Remote Areas** : Work offline for long durations
+- **Universities & Hostels** : Local mesh communication without Internet
+- **Censored Environments** : Messaging continues even under network blocks
 
 ## Technology Highlights
 
