@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhiteOverlay">#afffffff</color>
+    <color name="colorTextDesc">#adb5bd</color>
+    <color name="colorText">#f8f9fa</color>
+    <color name="colorTextLight">#FFFFFF</color>
+    <color name="colorDivider">#495057</color>
+    <color name="colorDarkGray">#343a40</color>
+    <color name="colorGreen">#28a745</color>
+    <color name="colorBlue">#123747</color>
+
+    <color name="status_header_text_color">#123747</color>
+    <color name="bgColor">#1a1d21</color>
+    <color name="cardBgColor">#242830</color>
+    <color name="iconTintColor">#adb5bd</color>
+    <color name="iconTintLight">@color/grey</color>
+    <color name="iconTintSuperLight">#e9ecef</color>
+    <color name="actionModeBackground">#123747</color>
+
+
+    <!--  by default some libs use this default colors, so we are just adding it and reference the colors above -->
+    <color name="colorPrimary">#123747</color>
+    <color name="colorPrimaryDark">#2ac4e8</color>
+    <color name="colorAccent">#4D6975</color>
+
+    <color name="colorsecondary_text">#adb5bd</color>
+
+
+    <color name="translucent_scrim_top">#26000000</color>
+    <color name="translucent_scrim_top_center">#0C000000</color>
+    <color name="translucent_scrim_bottom">#2A000000</color>
+    <color name="translucent_scrim_bottom_center">#0D000000</color>
+
+
+    <color name="transulcent_toolbar">#80000000</color>
+
+
+    <color name="toolbar_status_text_color">#adb5bd</color>
+    <color name="sent_color_state">#28a745</color>
+    <color name="read_color_state">#123747</color>
+
+    <color name="read_color_voice_state">#123747</color>
+    <color name="sent_color_voice_state">#28a745</color>
+
+
+    <color name="chat_list_title_color">#f8f9fa</color>
+    <color name="red">#dc3545</color>
+
+
+    <!--<color name="sent_message_background_color">#71A2A9</color>-->
+    <!--<color name="sent_message_background_color">#35607c</color>-->
+    <color name="sent_message_background_color">#336FFFFF</color>
+    <color name="received_message_background_color">#33000000</color>
+
+    <color name="sent_message_title_color">#6fffff</color>
+    <color name="sent_message_time_color">#adb5bd</color>
+
+    <color name="received_message_title_color">#f8f9fa</color>
+    <color name="received_message_time_color">#adb5bd</color>
+
+    <color name="header_background_color">#336fffff</color>
+    <color name="header_text_color">#6fffff</color>
+
+    <color name="btn_scroll_background_color">#343a40</color>
+    <color name="btn_scroll_icon_color">#adb5bd</color>
+
+    <color name="record_btn_background_color">#28a745</color>
+    <color name="record_btn_icon_color">#FFFFFF</color>
+
+    <color name="item_title_color_user_details">#123747</color>
+
+    <color name="item_selected_background_color">#1a5a6e</color>
+    <color name="audio_wave_background">#242830</color>
+    <color name="typing_color">#123747</color>
+    <color name="chat_background">#0f1115</color>
+
+
+    <color name="unread_count_background_color">#123747</color>
+    <color name="unread_count_text_color">#000000</color>
+
+    <color name="contact_title_color">#28a745</color>
+
+    <color name="grey">#6c757d</color>
+    <color name="blue">#123747</color>
+    <color name="dark_blue">#2ac4e8</color>
+    <color name="text_color_grey">#adb5bd</color>
+    <color name="group_event_bg_color">#343a40</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="light_blue">#123747</color>
+    <color name="light_gray">#495057</color>
+    <color name="status_seen_color">#6c757d</color>
+    <color name="status_not_seen_color">#123747</color>
+
+    <color name="quoted_sent_quoted_color">#123747</color>
+    <color name="quoted_sent_text_color">#123747</color>
+    <color name="quoted_sent_background_color">#0f2932</color>
+    <color name="quoted_cancel_color">#123747</color>
+
+    <color name="quoted_received_quoted_color">#123747</color>
+    <color name="quoted_received_text_color">#123747</color>
+    <color name="quoted_received_background_color">#1a1d21</color>
+    <color name="gray_light">#6c757d</color>
+    <color name="status_hint">#26FFFFFF</color>
+    <color name="chats_background">@android:color/transparent</color>
+    <color name="otp_text_color">#adb5bd</color>
+    <color name="otp_line_color">#123747</color>
+    <color name="calling_activity_bg">#0f1115</color>
+    <color name="nearby_places_bg">#242830</color>
+    <color name="splash_bg">@color/bgColor</color>
+
+
+    <string-array name="status_bg_colors">
+        <item>#FF8A8C</item>
+        <item>#54C265</item>
+        <item>#8294CA</item>
+        <item>#A62C71</item>
+        <item>#90A841</item>
+        <item>#C1A03F</item>
+        <item>#792138</item>
+        <item>#AE8774</item>
+        <item>#F0B330</item>
+        <item>#B6B327</item>
+        <item>#C69FCC</item>
+        <item>#8B6990</item>
+        <item>#26C4DC</item>
+        <item>#57C9FF</item>
+        <item>#74676A</item>
+        <item>#5696FF</item>
+    </string-array>
+</resources>
