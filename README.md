@@ -434,11 +434,6 @@ We welcome contributions! Ghost Room is an open-source project, and we appreciat
 - **Documentation**: Check project documentation for technical details
 - **Community**: Join discussions and share experiences
 
-### Contact
-- **Website**: [Visit our website](http://example.com/)
-- **Email**: Contact us via email (if available)
-- **Twitter**: Follow updates (if available)
-
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE) (or your preferred license).
