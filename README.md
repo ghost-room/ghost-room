@@ -67,7 +67,7 @@ Cryptographic keys are stored securely on-device, ensuring zero knowledge exposu
 
 Ghost Room blends the best of both worlds:
 
-#### Online Mode (Cloud-Assisted Security)
+### Online Mode (Cloud-Assisted Security)
 Powered by:
 - Firebase Authentication
 - Realtime Database
@@ -76,7 +76,7 @@ Powered by:
 
 Optimized for speed, scalability, and reliability — while keeping sensitive metadata minimized.
 
-#### Offline Mode (True Serverless Communication)
+### Offline Mode (True Serverless Communication)
 Powered by:
 - Peer-to-peer encrypted Bluetooth
 - Local Realm database
