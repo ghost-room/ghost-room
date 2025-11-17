@@ -471,5 +471,5 @@ This project is open-source and available under the [MIT License](LICENSE) (or y
 
 **Note**: This project is actively maintained. For technical documentation, build instructions, and contribution guidelines, please refer to the project documentation.
 
-**Version**: 2.2.4 | **Last Updated**: 2025
+**Last Updated**: 2025
 
