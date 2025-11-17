@@ -12,7 +12,6 @@ Unlike traditional messengers that route all communication through centralized s
 - **Serverless communication paths when offline**
 - **End-to-End encrypted chats**
 - **Locally stored conversation states**
-- **Secure call signalling using Agora RTC**
 - **Firebase services layered with client-side privacy controls**
 
 Ghost Room protects:
@@ -68,7 +67,7 @@ Cryptographic keys are stored securely on-device, ensuring zero knowledge exposu
 
 Ghost Room blends the best of both worlds:
 
-**Online Mode (Cloud-Assisted Security)**
+#### Online Mode (Cloud-Assisted Security)
 Powered by:
 - Firebase Authentication
 - Realtime Database
@@ -77,25 +76,17 @@ Powered by:
 
 Optimized for speed, scalability, and reliability — while keeping sensitive metadata minimized.
 
-**Offline Mode (True Serverless Communication)**
+#### Offline Mode (True Serverless Communication)
 Powered by:
 - Peer-to-peer encrypted Bluetooth
 - Local Realm database
 - Local message queues
 - No cloud dependency
 
-### 4. Secure Calling via Agora RTC
-
-- 1-on-1 and group calls (up to 11 participants)
-- Encrypted audio/video streams
-- Optimized for low latency
-- Works in low bandwidth environments
-
-### 5. Modern, Scalable, Production-Ready Tech Stack
+### 4. Modern, Scalable, Production-Ready Tech Stack
 
 - Kotlin + Java 17
 - Firebase / FCM / Firestore
-- Agora RTC SDK
 - Realm Database
 - Jetpack Compose / Navigation / Lifecycle
 - Retrofit + RxJava
@@ -108,7 +99,7 @@ Powered by:
 - ✓ End-to-End Encrypted Messaging
 - ✓ Offline Mesh Mode (Bluetooth P2P)
 - ✓ Broadcast Messaging Offline
-- ✓ Secure Group & 1-on-1 Calls (Agora)
+- ✓ Secure Group & 1-on-1 Calls
 - ✓ Message Queueing During Offline Periods
 - ✓ Realm-Based Local Encryption
 - ✓ Firebase Cloud Integration
@@ -132,11 +123,11 @@ Powered by:
 
 Ghost Room is engineered for environments where communication must remain resilient and private:
 
-- ** Journalists & Sources** — Stay connected even during network blackouts
-- ** Public Events / Crowds** — Chat when mobile networks are overloaded
-- ** Remote Areas** — Work offline for long durations
-- ** Universities & Hostels** — Local mesh communication without Internet
-- ** Censored Environments** — Messaging continues even under network blocks
+- **🕵️ Journalists & Sources** — Stay connected even during network blackouts
+- **👥 Public Events / Crowds** — Chat when mobile networks are overloaded
+- **🌐 Remote Areas** — Work offline for long durations
+- **🎓 Universities & Hostels** — Local mesh communication without Internet
+- **🚫 Censored Environments** — Messaging continues even under network blocks
 
 ## Technology Highlights
 
@@ -158,9 +149,9 @@ Ghost Room intelligently switches between modes:
 
 ### Secure Calling Architecture
 
-- Agora RTC for low-latency AV
 - Encrypted signalling
 - Custom call session management
+- Low-latency audio/video communication
 
 ## Architecture Overview
 
@@ -198,7 +189,6 @@ Ghost Room follows **Clean Architecture** principles with **MVVM (Model-View-Vie
 
 **Network Layer**
 - **Firebase Services**: Authentication, Database, Storage, FCM
-- **Agora RTC SDK**: Voice and video calling
 - **Retrofit + RxJava**: REST API communication
 
 **Offline Mesh Layer**
@@ -216,7 +206,6 @@ Ghost Room follows **Clean Architecture** principles with **MVVM (Model-View-Vie
 Ghost Room Android Workspace includes:
 - Complete modularized Android codebase
 - Ready-to-compile Firebase configuration
-- Integrated Agora calling stack
 - Offline mesh stack with real-time event listeners
 - Clean architecture + MVVM
 - Gradle 8.13 + Kotlin 2.2
@@ -259,12 +248,7 @@ Ghost Room Android Workspace includes:
    - Configure Realtime Database rules
    - Set up Cloud Storage buckets
 
-4. **Configure Agora RTC**
-   - Create an account at [Agora.io](https://www.agora.io/)
-   - Create a new project and get your App ID
-   - Update `agora_app_id` in `app/build.gradle`
-
-5. **Build and Run**
+4. **Build and Run**
    ```bash
    ./gradlew assembleDebug
    ./gradlew :app:installDebug
@@ -279,9 +263,9 @@ Ghost Room Android Workspace includes:
 The APK will be generated at: `app/build/outputs/apk/debug/app-debug.apk`
 
 ### Release Build
-```bash
-./gradlew assembleRelease
-```
+   ```bash
+   ./gradlew assembleRelease
+   ```
 The signed APK will be at: `app/release/Ghost Room.apk`
 
 **Note**: For production releases, replace the default keystore with your own and update signing configurations in `app/build.gradle`.
@@ -301,20 +285,11 @@ The signed APK will be at: `app/release/Ghost Room.apk`
 4. **Cloud Messaging**: Configure FCM for push notifications
 5. **Cloud Functions**: Deploy server-side functions if needed
 
-### Agora RTC Setup
-1. Create an Agora account and project
-2. Copy your App ID to `app/build.gradle`:
-   ```gradle
-   resValue 'string', "agora_app_id", "YOUR_AGORA_APP_ID"
-   ```
-3. (Optional) Set up token server for production environments
-
 ### Build Configuration
 Key configuration values in `app/build.gradle`:
 - `applicationId`: Your app package name
 - `versionCode`: Increment for each release
 - `versionName`: Semantic version string
-- `agora_app_id`: Agora RTC App ID
 - `maps_api_key`: Google Maps API key (for location features)
 - `encryption_type`: NONE, AES, or E2E
 
@@ -448,9 +423,8 @@ This project is open-source and available under the [MIT License](LICENSE) (or y
 
 ## Acknowledgments
 
-- **Firebase**: For cloud infrastructure and services
-- **Agora**: For real-time communication SDK
-- **Realm**: For local database solution
+- **Firebase**: For cloud infrastructure and services and online part of the app
+- **Realm**: For local database solution for online part of the app
 - **Open Source Community**: For various libraries and tools
 - **Contributors**: Everyone who has contributed to this project
 
@@ -458,7 +432,6 @@ This project is open-source and available under the [MIT License](LICENSE) (or y
 
 ### Documentation
 - [Firebase Documentation](https://firebase.google.com/docs)
-- [Agora RTC Documentation](https://docs.agora.io/en/)
 - [Realm Database Docs](https://realm.io/docs/java/latest/)
 - [Android Developer Guide](https://developer.android.com/)
 
