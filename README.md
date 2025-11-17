@@ -381,16 +381,13 @@ Absolutely. The entire source code is public, reviewable, and open to audits.
 **4. Is Ghost Room suitable for team or business communication?**  
 Yes — it works for individuals, small teams, and anyone who values privacy over convenience.
 
-**5. What platforms does Ghost Room support?**  
-Currently Android is fully supported. Mobile, desktop, and web versions are being built and improved continuously.
-
-**6. How does offline mesh mode work?**  
+**5. How does offline mesh mode work?**  
 When devices are within Bluetooth range and have no Internet, they automatically switch to encrypted Bluetooth P2P communication. Messages are delivered directly between devices without any server involvement.
 
-**7. Is my data safe if I lose my device?**  
+**6. Is my data safe if I lose my device?**  
 Yes. All data is encrypted with keys stored on-device. Without your device and authentication, data cannot be accessed. You can also enable additional security features like biometric locks.
 
-**8. Can I use Ghost Room internationally?**  
+**7. Can I use Ghost Room internationally?**  
 Yes. Ghost Room works anywhere, with or without Internet. The offline mesh mode is particularly useful in areas with poor connectivity or network restrictions.
 
 ## Contributing
