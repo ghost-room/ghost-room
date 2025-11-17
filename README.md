@@ -2,7 +2,7 @@
 
 **Serverless • Encrypted • Offline Mesh Messaging Suite**
 
-Ghost Room is a next-generation communication platform engineered for secure, fast, and censorship-resistant messaging. Designed with a hybrid privacy architecture — combining cloud-grade reliability with true offline device-to-device communication — Ghost Room enables users to stay connected anytime, anywhere, with or without Internet access.
+Ghost Room is a next-generation communication platform built for secure, fast, and censorship-resistant messaging. It uses a hybrid privacy architecture that blends cloud-level reliability with real offline device-to-device communication. The result is a platform that lets people stay connected anytime and anywhere, whether they have internet access or not.
 
 ## Private by Design • Engineered for Zero Exposure
 
@@ -25,7 +25,7 @@ Because communication doesn't depend solely on Internet servers.
 
 ## The Problem We Solve
 
-Most messaging apps — even encrypted ones — still expose your:
+Most messaging apps, even encrypted ones, still expose your:
 - Identity
 - IP address
 - Communication patterns
@@ -41,7 +41,7 @@ Ghost Room breaks this dependency by enabling true serverless offline messaging,
 
 ## What Makes Ghost Room Different
 
-### 1. Offline Mesh Mode — Device-to-Device Bluetooth Messaging
+### 1. Offline Mesh Mode : Device-to-Device Bluetooth Messaging
 
 A signature Ghost Room innovation. When there is no Internet, users can still communicate using encrypted peer-to-peer Bluetooth messaging:
 
@@ -74,7 +74,7 @@ Powered by:
 - Firestore/Storage
 - Cloud Functions
 
-Optimized for speed, scalability, and reliability — while keeping sensitive metadata minimized.
+Optimized for speed, scalability, and reliability, while keeping sensitive metadata minimized.
 
 ### Offline Mode (True Serverless Communication)
 Powered by:
