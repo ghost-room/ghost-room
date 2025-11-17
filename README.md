@@ -133,7 +133,7 @@ Ghost Room is engineered for environments where communication must remain resili
 
 ### Ghost Mesh Protocol (Offline Layer)
 
-A Bluetooth LE–powered encrypted communication layer optimized for:
+A Bluetooth powered encrypted communication layer optimized for:
 - Low-latency P2P chats
 - Broadcast distribution
 - Mesh hopping (planned)
