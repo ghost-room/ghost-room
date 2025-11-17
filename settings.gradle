@@ -1,0 +1,2 @@
+include ':app', ':cameraView', ':stories-progress-view', ':imageeditengine'
+include ':BitChat'
