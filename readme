@@ -1,0 +1,181 @@
+🚀 Ghost Room
+Serverless • Encrypted • Offline Mesh Messaging Suite
+Ghost Room is a next-generation communication platform engineered for secure, fast, and censorship-resistant messaging.
+Designed with a hybrid privacy architecture — combining cloud-grade reliability with true offline device-to-device communication — Ghost Room enables users to stay connected anytime, anywhere, with or without Internet access.
+ 
+🛡 Private by Design • Engineered for Zero Exposure
+Unlike traditional messengers that route all communication through centralized servers, Ghost Room minimizes metadata exposure by using:
+•	Direct P2P Offline Mesh Mode (Bluetooth)
+•	Serverless communication paths when offline
+•	End-to-End encrypted chats
+•	Locally stored conversation states
+•	Secure call signalling using Agora RTC
+•	Firebase services layered with client-side privacy controls
+Ghost Room protects:
+•	Who you talk to
+•	When you talk
+•	Where you are
+•	How often you communicate
+•	Your online/offline patterns
+Because communication doesn't depend solely on Internet servers.
+ 
+🔥 The Problem We Solve
+Most messaging apps — even encrypted ones — still expose your:
+•	Identity
+•	IP address
+•	Communication patterns
+•	Contact graph
+•	Online presence
+•	Metadata trail
+Ghost Room breaks this dependency by enabling true serverless offline messaging, so communication can happen even:
+✔ Without SIM card
+✔ Without Internet
+✔ Without any central servers
+✔ Without revealing metadata
+ 
+📡 What Makes Ghost Room Different
+🔗 1. Offline Mesh Mode — Device-to-Device Bluetooth Messaging
+A signature Ghost Room innovation.
+When there is no Internet, users can still communicate using:
+Encrypted peer-to-peer Bluetooth messaging
+•	One-to-one chats
+•	Broadcast messaging
+•	Local mesh networking
+•	High-resilience device hopping
+•	No servers, no SIM, no IP address
+The message never touches the Internet.
+Never touches a server.
+Never reveals metadata.
+This is true serverless communication.
+ 
+🔒 2. End-to-End Encryption
+Ghost Room uses modern encryption for:
+•	Chats
+•	Status updates
+•	Calls
+•	Offline mesh messages
+Cryptographic keys are stored securely on-device, ensuring zero knowledge exposure.
+ 
+🌐 3. Hybrid Privacy Architecture
+Ghost Room blends the best of both worlds:
+Online Mode (Cloud-Assisted Security)
+Powered by:
+•	Firebase Authentication
+•	Realtime Database
+•	Firestore/Storage
+•	Cloud Functions
+Optimized for speed, scalability, and reliability — while keeping sensitive metadata minimized.
+Offline Mode (True Serverless Communication)
+Powered by:
+•	Peer-to-peer encrypted Bluetooth
+•	Local Realm database
+•	Local message queues
+•	No cloud dependency
+ 
+📞 4. Secure Calling via Agora RTC
+•	1-on-1 and group calls (up to 11 participants)
+•	Encrypted audio/video streams
+•	Optimized for low latency
+•	Works in low bandwidth environments
+ 
+🧩 5. Modern, Scalable, Production-Ready Tech Stack
+•	Kotlin + Java 17
+•	Firebase / FCM / Firestore
+•	Agora RTC SDK
+•	Realm Database
+•	Jetpack Compose / Navigation / Lifecycle
+•	Retrofit + RxJava
+•	WorkManager for background tasks
+ 
+🌙 Ghost Mode Features
+Core Features
+•	✓ End-to-End Encrypted Messaging
+•	✓ Offline Mesh Mode (Bluetooth P2P)
+•	✓ Broadcast Messaging Offline
+•	✓ Secure Group & 1-on-1 Calls (Agora)
+•	✓ Message Queueing During Offline Periods
+•	✓ Realm-Based Local Encryption
+•	✓ Firebase Cloud Integration
+Smart Features
+•	✓ Auto Mode Switching (Offline ↔ Online)
+•	✓ Local Message Backup
+•	✓ Stealth Presence Mode
+•	✓ Attachment Support (online mode)
+•	✓ Status updates
+Power Tools
+•	✓ Multi-Device Architecture (in roadmap)
+•	✓ Multi-hop mesh networking (planned)
+•	✓ LAN-based offline mode (future)
+•	✓ Desktop client (future)
+ 
+🎯 Use Cases
+Ghost Room is engineered for environments where communication must remain resilient and private:
+🕵️ Journalists & Sources
+Stay connected even during network blackouts.
+👥 Public Events / Crowds
+Chat when mobile networks are overloaded.
+🌐 Remote Areas
+Work offline for long durations.
+🎓 Universities & Hostels
+Local mesh communication without Internet.
+🚫 Censored Environments
+Messaging continues even under network blocks.
+ 
+🧠 Technology Highlights
+◈ Ghost Mesh Protocol (Offline Layer)
+A Bluetooth LE–powered encrypted communication layer optimized for:
+•	Low-latency P2P chats
+•	Broadcast distribution
+•	Mesh hopping (planned)
+•	Energy-efficient scanning
+•	Zero-server messaging
+◈ Hybrid Sync System
+Ghost Room intelligently switches between modes:
+1.	Try Offline Mesh
+2.	If unavailable → Use Firebase for delivery
+3.	Re-sync using Realm local database
+◈ Secure Calling Architecture
+•	Agora RTC for low-latency AV
+•	Encrypted signalling
+•	Custom call session management
+ 
+🛠 Developer Workspace
+Ghost Room Android Workspace includes:
+•	Complete modularized Android codebase
+•	Ready-to-compile Firebase configuration
+•	Integrated Agora calling stack
+•	Offline mesh stack with real-time event listeners
+•	Clean architecture + MVVM
+•	Gradle 8.13 + Kotlin 2.2
+•	Target SDK 35 (Android 15)
+ 
+🗺 Roadmap
+Completed
+✓ Offline Mesh Mode
+✓ Secure Calls
+✓ Chat + Status
+✓ Realm Integration
+✓ Auto Mode Switching
+In Progress
+▢ Enhanced encryption
+▢ Multi-device identity
+▢ Media compression engine
+▢ Desktop client
+Planned
+▢ Full mesh multi-hop
+▢ LAN/WiFi-Direct mode
+▢ Open-source SDK
+▢ iOS version
+ 
+❓ Frequently Asked Questions (FAQ)
+1. Is Ghost Room completely free?
+Yes. It’s open-source and free for everyone.
+2. Does Ghost Room collect any personal data?
+No. We avoid all unnecessary data collection. Only the absolute minimum required to function is used — and never stored long-term.
+3. Can I verify the security of the code myself?
+Absolutely. The entire source code is public, reviewable, and open to audits.
+4. Is Ghost Room suitable for team or business communication?
+Yes — it works for individuals, small teams, and anyone who values privacy over convenience.
+5. What platforms does Ghost Room support?
+Mobile, desktop, and web versions are being built and improved continuously.
+
